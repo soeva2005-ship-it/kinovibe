@@ -1,0 +1,1 @@
+const button=document.getElementById('menuBtn');const nav=document.getElementById('nav');button?.addEventListener('click',()=>nav.classList.toggle('open'));nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
